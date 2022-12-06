@@ -6,7 +6,7 @@ class TranslateApi {
             baseURL: this.baseURL,
             params: {
                 target: 'tr',
-                key: 'AIzaSyASBa2VnNrdrNmAg5TXqcMY6VLUEYS4gnI',
+                key: '***********************',
                 q: this.aranacakCumle
             }
         });
@@ -23,9 +23,4 @@ class TranslateApi {
         }
 
     }
-}
-
-export default function ceviriYap(ceviriYapilacakMetin) {
-    const ceviri = new TranslateApi(ceviriYapilacakMetin).ceviriYap();
-    return ceviri;
 }
