@@ -24,3 +24,8 @@ class UnsplashApi {
         }
     }
 }
+
+export default function resimGetir() {
+    const getirilenResim = new UnsplashApi().randomResimGetir();
+    return getirilenResim;
+}

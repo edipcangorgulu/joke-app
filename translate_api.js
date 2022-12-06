@@ -24,3 +24,8 @@ class TranslateApi {
 
     }
 }
+
+export default function ceviriYap(ceviriYapilacakMetin) {
+    const ceviri = new TranslateApi(ceviriYapilacakMetin).ceviriYap();
+    return ceviri;
+}

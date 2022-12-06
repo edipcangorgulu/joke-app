@@ -15,3 +15,8 @@ class JokeApi {
         }
     }
 }
+
+export default function sakaGetir() {
+    const getirilenSaka = new JokeApi().randomSakaGetir();
+    return getirilenSaka;
+}
